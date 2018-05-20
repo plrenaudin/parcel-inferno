@@ -1,0 +1,19 @@
+@import "variables.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bgColor;
+}
+
+input[type="text"] {
+  box-shadow: 0 1px 3px $shadow;
+}
+
+.content {
+  padding: 2rem;
+}
