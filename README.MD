@@ -11,3 +11,4 @@ Content:
 * Sass file support
 * [Postcss](https://postcss.org/) config (auto-prefixer)
 * [Prettier](https://prettier.io/) 1.12 (with pre-commit hook)
+* [Eslint](https://eslint.org) config
