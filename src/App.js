@@ -1,10 +1,10 @@
-import InputField from "./components/InputField";
-import Button from "./components/Button";
 import { Component } from "inferno";
+import Button from "./components/Button";
+import InputField from "./components/InputField";
 
 class App extends Component {
-  onClick = e => {
-    alert(this.input.state.value);
+  onClick = () => {
+    alert(this.input.state.value); // eslint-disable-line no-alert
   };
 
   render() {
