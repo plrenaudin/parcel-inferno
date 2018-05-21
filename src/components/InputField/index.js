@@ -1,5 +1,18 @@
-const input = e => console.log(e);
+import { Component } from "inferno";
 
-const InputField = ({ value }) => <input type="text" value={value} onInput={input} />;
+class InputField extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { value: props.value };
+  }
+
+  handleChange = event => {
+    this.setState({ value: event.target.value });
+  };
+
+  render() {
+    return <input type="text" value={this.state.value} onInput={this.handleChange} />;
+  }
+}
 
 export default InputField;

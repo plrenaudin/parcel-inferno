@@ -9,5 +9,5 @@
       }
     ]
   ],
-  "plugins": [["babel-plugin-inferno", { "imports": true }]]
+  "plugins": [["babel-plugin-inferno", { "imports": true }], "transform-class-properties"]
 }
