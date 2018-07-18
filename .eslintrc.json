@@ -5,8 +5,9 @@
     "browser": true,
     "jest": true
   },
-  "plugins": ["babel", "react"],
+  "plugins": ["babel", "react", "prettier"],
   "rules": {
+    "prettier/prettier": "error",
     "react/jsx-uses-vars": 2,
     "no-invalid-this": 0,
     "babel/no-invalid-this": 1,
