@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div class="content">
-        <h1>Proof of concept</h1>
+        <h1>Inferno Parcel boilerplate Example</h1>
         <InputField value="toto" ref={el => (this.input = el)} />
         <Button onClick={this.onClick} label="push" />
       </div>

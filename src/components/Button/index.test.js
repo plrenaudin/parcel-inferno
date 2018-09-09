@@ -1,8 +1,6 @@
-import { render } from "inferno";
 import Button from ".";
+import { renderToSnapshot } from "inferno-test-utils";
 
 it("renders without crashing", () => {
-  const div = document.createElement("div");
-
-  expect(render(<Button label={"test label"} />, div).dom).toMatchSnapshot();
+  expect(renderToSnapshot(<Button label={"test label"} />)).toMatchSnapshot();
 });
