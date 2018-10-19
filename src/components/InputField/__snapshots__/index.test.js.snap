@@ -2,6 +2,8 @@
 
 exports[`renders without crashing 1`] = `
 <input
+  onInput={[Function]}
+  type="text"
   value="test value"
 />
 `;
