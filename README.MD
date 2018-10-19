@@ -4,9 +4,9 @@ Boilerplate for inferno app using parcel bundler.
 
 Content:
 
-- [Inferno](https://infernojs.org) v5
+- [Inferno](https://infernojs.org) v6
 - [Parcel](https://parceljs.org/) 1.9
-- [Babel](https://babeljs.io) v6 + configuration (Inferno, env, class-properties)
+- [Babel](https://babeljs.io) v7 + configuration (Inferno, env, class-properties)
 - [Jest](https://facebook.github.io/jest) 23 (snapshot testing example)
 - Sass file support
 - [Postcss](https://postcss.org/) config (auto-prefixer)
