@@ -45,8 +45,5 @@
   },
   "prettier": {
     "printWidth": 120
-  },
-  "dependencies": {
-    "incompose": "^4.0.0-alpha.1"
   }
 }
