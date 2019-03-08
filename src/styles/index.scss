@@ -14,6 +14,11 @@ input[type="text"] {
   box-shadow: 0 1px 3px $shadow;
 }
 
+// test for vendor prefix with postcss
+::placeholder {
+  color: red;
+}
+
 .content {
   padding: 2rem;
 }

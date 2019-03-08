@@ -11,7 +11,9 @@ class InputField extends Component {
   };
 
   render() {
-    return <input type="text" value={this.state.value} onInput={this.handleChange} />;
+    return (
+      <input type="text" value={this.state.value} onInput={this.handleChange} placeholder="type something and click" />
+    );
   }
 }
 

@@ -3,6 +3,7 @@
 exports[`renders without crashing 1`] = `
 <input
   onInput={[Function]}
+  placeholder="type something and click"
   type="text"
   value="test value"
 />
